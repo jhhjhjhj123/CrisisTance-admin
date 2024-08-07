@@ -1,0 +1,39 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap");
+
+:root {
+  --color-yellow-1: rgba(210, 243, 7, 1);
+  --color-yellow-2: rgba(210, 243, 7, 1);
+  --color-yellow-3: #fcd905;
+  --color-yellow-4: #fde6959a;
+  --color-white-1: rgba(255, 255, 255, 0.6);
+  --color-blue-1: rgba(90, 114, 160, 0.8);
+  --color-blue-2: rgba(90, 114, 160, 1);
+  --color-blue-3: #063dff;
+  --color-blue-4: #6574a9;
+  --color-blue-5: #7c89b6;
+  --color-blue-6: #5b6ba479;
+  --color-red-1: #ff0404;
+  --color-gray-1: #e5e8ec;
+  --color-gray-2: #d9d9d9;
+
+  --color-graph-1: rgba(255, 159, 64, 0.6);
+  --color-graph-2: rgba(72, 192, 194, 0.6);
+  --color-graph-3: rgba(255, 99, 132, 0.6);
+  --color-graph-4: rgba(255, 159, 64, 0.6);
+  --color-graph-5: rgba(72, 192, 194, 0.6);
+  --color-graph-6: rgba(255, 99, 132, 0.6);
+  --color-graph-7: rgba(255, 159, 64, 0.6);
+}
+
+* {
+  box-sizing: border-box;
+  font-family: "Inter", sans-serif;
+}
+
+html,
+body {
+  background-color: #fff;
+
+  margin: 0;
+  padding: 0;
+}
