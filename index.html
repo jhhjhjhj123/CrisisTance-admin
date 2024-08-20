@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CrisisTance</title>
+    <link
+      rel="shortcut icon"
+      href="./media/images/logo.png"
+      type="image/x-icon"
+    />
+    <link rel="stylesheet" href="./css/Root-Style.css" />
+
+    <link rel="stylesheet" href="./css/Index-Style.css" />
+  </head>
+  <body>
+    <main class="main-container">
+      <div class="left-container">
+        <img src="./media/images/logo.png" alt="CrisisTance Logo" />
+        <h1>
+          <span style="color: var(--color-red-1)">CRISIS</span
+          ><span style="color: var(--color-blue-3)">TANCE</span>
+        </h1>
+      </div>
+
+      <form class="right-container" id="login-form">
+        <img src="./media/images/default-profile.png" alt="" />
+
+        <input
+          type="email"
+          name="login-email"
+          placeholder="ENTER YOUR EMAIL"
+          required
+        />
+        <input
+          type="password"
+          name="login-password"
+          placeholder="ENTER YOUR PASSWORD"
+          required
+        />
+
+        <button type="submit">LOGIN</button>
+
+        <p>
+          Note: "Only staff of the office or other authorized persons can log in
+          here."
+        </p>
+      </form>
+    </main>
+
+    <script
+      src="https://www.gstatic.com/firebasejs/10.12.4/firebase-app.js"
+      type="module"
+    ></script>
+    <script
+      src="https://www.gstatic.com/firebasejs/10.12.4/firebase-auth.js"
+      type="module"
+    ></script>
+    <script
+      src="https://www.gstatic.com/firebasejs/10.12.4/firebase-database.js"
+      type="module"
+    ></script>
+
+    <script type="module" src="./js/Index-Script.js" defer></script>
+  </body>
+</html>
