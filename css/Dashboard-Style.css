@@ -239,11 +239,23 @@
   display: table;
   width: 100%;
   border-collapse: collapse;
+  table-layout: fixed;
 }
 
 .months-container table thead {
   background-color: var(--color-blue-8);
   font-weight: bold;
+  display: table;
+  width: calc(100% - 17px);
+  table-layout: fixed;
+}
+
+.months-container table tbody {
+  display: block;
+  max-height: 5cm;
+  overflow-y: scroll;
+  width: 100%;
+  table-layout: fixed;
 }
 
 .months-container table td {
@@ -253,19 +265,33 @@
   font-size: 1.3rem;
 }
 
+.months-container table tbody tr {
+  display: table;
+  width: 100%;
+  table-layout: fixed;
+}
+
 .months-container table tbody td img {
   width: 60px;
 }
 
+.months-container table thead td:nth-child(1),
 .months-container table tbody td:nth-child(1) {
-  width: 40%;
+  width: 35%;
 }
 
+.months-container table thead td:nth-child(2),
 .months-container table tbody td:nth-child(2),
+.months-container table thead td:nth-child(3),
 .months-container table tbody td:nth-child(3),
-.months-container table tbody td:nth-child(4),
+.months-container table thead td:nth-child(4),
+.months-container table tbody td:nth-child(4) {
+  width: 16%;
+}
+
+.months-container table thead td:nth-child(5),
 .months-container table tbody td:nth-child(5) {
-  width: 15%;
+  width: 17%;
 }
 
 .middle-container {
